@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Wrap in Container" description="Wrap in Container" file="/Tema8/res/layout/activity_grid.xml" flags="6" id="com.android.ide.eclipse.adt.refactoring.wrapin" name="scrollGrid" proj="/Tema8" sel-end="1076" sel-start="0" stamp="1369953363757" type="android.widget.ScrollView"/>
+</session>

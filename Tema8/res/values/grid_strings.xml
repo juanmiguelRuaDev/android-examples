@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gridList">
+        <item>android</item>
+        <item>java</item>
+        <item>python</item>
+        <item>javaScript</item>
+        <item>mongoDb</item>
+        <item>No-sql</item>
+        <item>MySQL</item>
+        <item>HTML5</item>
+        <item>CSS3</item>
+        <item>Maven3</item>
+        <item>C</item>
+        <item>C++</item>
+        <item>.NET</item>
+    </string-array>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Intents_First</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hint_editText">escribe el texto aqui..</string>
+    <string name="text_button1">Click me</string>
+
+</resources>

@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".StorageFileActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_writeText" />
+
+    <EditText
+        android:id="@+id/et_fileStorage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:ems="10"
+        android:hint="example" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btnSaveFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_fileStorage"
+        android:layout_alignRight="@+id/et_fileStorage"
+        android:layout_below="@+id/et_fileStorage"
+        android:onClick="saveInFile"
+        android:text="@string/txt_saveButton" />
+
+    <Button
+        android:id="@+id/btn_loadFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnSaveFile"
+        android:layout_alignRight="@+id/btnSaveFile"
+        android:layout_below="@+id/btnSaveFile"
+        android:onClick="loadFromFile"
+        android:text="@string/txt_loadButton" />
+
+    <RadioGroup
+        android:id="@+id/rgStorageMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/btn_loadFile"
+        android:layout_below="@+id/btn_loadFile"
+        android:layout_marginTop="17dp" >
+
+        <RadioButton
+            android:id="@+id/internalOption"
+            android:layout_width="256dp"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_internalMode" />
+
+        <RadioButton
+            android:id="@+id/externalOption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/txt_externalModel" />
+    </RadioGroup>
+
+</RelativeLayout>

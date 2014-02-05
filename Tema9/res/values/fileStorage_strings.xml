@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txt_writeText">Write here some text:</string>
+    <string name="txt_internalMode">Internal mode</string>
+    <string name="txt_externalModel">External mode</string>
+</resources>

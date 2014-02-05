@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Exercices Dynamic layouts</string>
+    <string name="action_settings">Settings</string>
+    <string name="txt_putName">Escriba su nombre:</string>
+    <string name="txt_numRepeats">Número de repeticiones:</string>
+    <string name="txt_buttonSend">Enviar</string>
+    <string name="txt_buttonNotification">Send notification</string>
+    <string name="title_activity_activity_replay">Replay result</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

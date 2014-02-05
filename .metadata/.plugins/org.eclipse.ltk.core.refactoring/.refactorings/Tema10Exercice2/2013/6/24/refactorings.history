@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;button1&apos; in &apos;com.tema10exercice2.R.id&apos; to &apos;btnSend&apos;&#x0A;- Original project: &apos;Tema10Exercice2&apos;&#x0A;- Original element: &apos;com.tema10exercice2.R.id.button1&apos;&#x0A;- Renamed element: &apos;com.tema10exercice2.R.id.btnSend&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="true" description="Rename field &apos;button1&apos;" flags="589830" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/gen&lt;com.tema10exercice2{R.java[R[id^button1" name="btnSend" references="true" setter="false" stamp="1371326314815" textual="false" version="1.0"/>
+</session>

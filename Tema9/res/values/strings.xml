@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tema Nueve curso</string>
+    <string name="action_settings">Settings</string>
+    <string name="txt_title">Puntos a tratar:</string>
+    <string name="txt_hint_grid">Here is the text from grid selected</string>
+
+    <string-array name="listPoints">
+        <item>Select option...</item>
+        <item>modo privado</item>
+        <item>storage file</item>
+        <item>SQLite</item>
+        <item>Menús</item>
+    </string-array>
+
+    <string name="context_menu_text">Open context menu</string>
+    <string name="title_activity_simple_storage">Simple storage Activity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_storage_file">Storage File Activity</string>
+    <string name="title_activity_sqlite">SQLiteActivity</string>
+
+</resources>

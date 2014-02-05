@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ActivityPrincipal" >
+
+    <Button
+        android:id="@+id/btnUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.36"
+        android:text="Open Url" 
+        android:onClick="llamada_intent"/>
+
+    <Button
+        android:id="@+id/btnDial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.36"
+        android:text="Open Dial"
+        android:onClick="llamada_intent" />
+
+    <Button
+        android:id="@+id/btnCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.36"
+        android:onClick="llamada_intent"
+        android:text="Open Call" />
+
+    <Button
+        android:id="@+id/btnGeo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.36"
+        android:onClick="llamada_intent"
+        android:text="Open Geo" />
+
+    <Button
+        android:id="@+id/btnOther"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.36"
+        android:onClick="llamada_otherActivity"
+        android:text="Open other activity" />
+
+    <Button
+        android:id="@+id/btnImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.36"
+        android:onClick="llamada_intent"
+        android:text="Open Image" />
+
+    <Button
+        android:id="@+id/btnContacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.36"
+        android:onClick="llamada_intent"
+        android:text="Open Contacts" />
+
+</LinearLayout>

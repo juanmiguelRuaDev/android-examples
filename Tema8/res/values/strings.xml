@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tema Ocho curso</string>
+    <string name="action_settings">Settings</string>
+    <string name="txt_title">Puntos a tratar:</string>
+    <string name="txt_hint_grid">Here is the text from grid selected</string>
+
+    <string-array name="listPoints">
+        <item>Select option...</item>
+        <item>Cuadrícula</item>
+        <item>Pestañas</item>
+        <item>Imagenes</item>
+        <item>Menús</item>
+    </string-array>
+
+    <string name="title_activity_grid">GridActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_tab">TabActivity</string>
+    <string name="title_activity_activity_image">ActivityImage</string>
+    <string name="context_menu_text">Open context menu</string>
+    <string name="title_activity_activity_web">ActivityWeb</string>
+
+</resources>

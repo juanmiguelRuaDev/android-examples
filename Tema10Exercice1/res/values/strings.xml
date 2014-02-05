@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tema10</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="target_phone">teléfono de destino</string>
+    <string name="message">Mensaje</string>
+    <string name="target_phone_hint">write here the number...</string>
+    <string name="message_hint">Write here the message...</string>
+    <string name="send_SMS">Envia SMS</string>
+    <string name="incomplete_date">Datos incompletos</string>
+
+</resources>

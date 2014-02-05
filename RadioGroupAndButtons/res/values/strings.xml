@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HolaMundoApp</string>
+    <string name="action_settings">Configuración</string>
+    <string name="hello_world">Hola mundo, esta es la primera aplicación del curso de insa</string>
+    <string name="VersionName">Primera Versión</string>
+    <string name="title_activity_open_dialog">AbrirDialogo</string>
+    <string name="value_open_dialog_activity">Go to Open Dialog</string>
+    <string name="fifty">50px</string>
+    <string name="sixty">60px</string>
+    <string name="seventy">70px</string>
+    <string-array name="main_radio_group">
+        <item>@string/fifty</item>
+        <item>@string/sixty</item>
+        <item>@string/seventy</item>
+    </string-array>
+
+</resources>

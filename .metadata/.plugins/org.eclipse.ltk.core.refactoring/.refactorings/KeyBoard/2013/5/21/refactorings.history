@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Wrap in Container" description="Wrap in Container" file="/KeyBoard/res/layout/activity_main.xml" flags="6" id="com.android.ide.eclipse.adt.refactoring.wrapin" name="scrollView1" proj="/KeyBoard" sel-end="836" sel-start="0" stamp="1369074971481" type="android.widget.ScrollView"/>
+</session>

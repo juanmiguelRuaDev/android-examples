@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:scrollbarAlwaysDrawVerticalTrack="false"
+    android:scrollbars="vertical"
+    tools:context=".ActivityPrincipal" >
+
+    <CheckBox
+        android:id="@+id/check_adult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/txt_adult" />
+
+   
+
+    <RadioGroup
+        android:id="@+id/radiogroup_marital"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/check_adult"
+        android:layout_below="@+id/check_adult" >
+
+        <RadioButton
+            android:id="@+id/radio_single"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/txt_single"
+            />
+
+        <RadioButton
+            android:id="@+id/radio_marrided"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_married" />
+
+        <RadioButton
+            android:id="@+id/radio_other"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_other" />
+    </RadioGroup>
+
+     <ImageButton
+         android:id="@+id/button1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/tv_result"
+         android:layout_alignParentRight="true"
+         android:layout_centerVertical="true"
+         android:src="@drawable/btn_icon"
+         android:contentDescription="@string/txt_checkuser"
+         android:onClick="setTextViewResults" />
+
+     <TextView
+         android:id="@+id/tv_result"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/button1"
+         android:text="@string/txt_result"
+         />
+
+     <EditText
+         android:id="@+id/et_adultResut"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+         android:layout_alignLeft="@+id/tv_result"
+         android:layout_below="@+id/tv_result"
+         android:ems="10" 
+         android:inputType="text"
+         android:enabled="false">
+
+         <requestFocus />
+     </EditText>
+
+     <EditText
+         android:id="@+id/et_maritalResult"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+         android:layout_alignLeft="@+id/et_adultResut"
+         android:layout_below="@+id/et_adultResut"
+         android:ems="10"
+         android:inputType="text"
+         android:enabled="false" />
+
+</RelativeLayout>

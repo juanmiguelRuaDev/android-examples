@@ -1,0 +1,65 @@
+package com.tema10;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.telephony.SmsManager;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.Toast;
+
+import com.juanmi.tema10.R;
+
+public class MainActivity extends Activity {
+
+	private static final String LOGTAG  = "Tema10Excercici1";
+	EditText et_targetPhone;
+	EditText et_message;
+	
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		initViews();
+	}
+	 
+	
+	/**  Method to init all activity views */
+	private void initViews(){
+		et_targetPhone = (EditText)findViewById(R.id.et_target_phone);
+		et_message = (EditText)findViewById(R.id.et_message);
+	}
+	
+	/** Validate if the fields contain some value 
+	 * @return true is both fields contain some values, else return false
+	 */
+	private boolean validateFields(){		
+		return(!et_targetPhone.getText().toString().isEmpty() && 
+				!et_message.getText().toString().isEmpty());		
+	}
+
+	
+	/** Method invoked from button that send the message**/
+	public void sendMessage(View v){
+		String idata = getResources().getString(R.string.incomplete_date);
+		if(validateFields()){
+			String targetPhone = et_targetPhone.getText().toString();
+			String message = et_message.getText().toString();
+			send_SMS(targetPhone,message);
+			
+		}else
+			Toast.makeText(getBaseContext(),idata, Toast.LENGTH_LONG).show();
+	}
+	
+	
+	/** Method to send the <code>message</code> to target phone specified in <code>target_phone</code> 
+	 * @param target_phone
+	 * @param message
+	 */
+	private void send_SMS(String target_phone, String message)
+    {     
+    	SmsManager sms = SmsManager.getDefault();
+        sms.sendTextMessage(target_phone, null, message, null, null);
+    }
+
+}

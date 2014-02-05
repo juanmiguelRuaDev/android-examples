@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tema10Exercice2</string>
+    <string name="action_settings">Settings</string>
+    <string name="subject">Sujeto</string>
+    <string name="message">Mensaje</string>
+    <string name="destination">Destino</string>
+    <string name="send">Enviar</string>
+    <string name="lack_subject">Falta sujeto...</string>
+    <string name="lack_destination">Falta email de destino...</string>
+
+</resources>
